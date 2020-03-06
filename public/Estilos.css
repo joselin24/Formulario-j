@@ -1,0 +1,186 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+  } 
+  #cabeceralogo { 
+    display: flex; 
+    justify-content: center; 
+    width: 96%; 
+    height: 150px; 
+    padding: 0% 2%; 
+    background-color:#FFD3F4;
+    filter:  bur(5px);
+  } 
+  #cabeceralogo > div { 
+    flex: 1; 
+    max-width: 960px; 
+    padding-top: 45px; 
+  } 
+  #cabeceralogo h1 { 
+    font: oblique bold 54px cursive; 
+    color:#640e0e; 
+  }
+  #cabeceralogo h2 { 
+    font: curier new 54px ; 
+    color:#000000; 
+  }
+  #menuprincipal { 
+    display: flex; 
+    justify-content: center; 
+    width: 96%; 
+    height: 50px; 
+    padding: 0% 2%; 
+    background-color: white; 
+  } 
+  #menuprincipal > div { 
+    flex: 1; 
+    max-width: 960px; 
+  } 
+  #menuprincipal li { 
+    display: inline-block; 
+    height: 35px; 
+    padding: 15px 10px 0px 10px; 
+    margin-right: 5px; 
+  } 
+  #menuprincipal li:hover { 
+    background-image:url("img/puntos.jpg");
+  } 
+  #menuprincipal a { 
+    font: cursive 18px ; 
+    color:black; 
+    text-decoration: none; 
+  }
+  #articulosprincipales h1{
+      text-align:center;
+  }
+  main { 
+    display: flex; 
+    justify-content: center; 
+      width: 96%;
+    padding: 2%;
+   
+    
+  } 
+  main > div { 
+    display: flex; 
+    flex: 1; 
+    max-width: 960px; 
+  } 
+  #msform {
+	width: 600px;
+	margin: 50px auto;
+	text-align: center;
+    position: relative;
+    background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 20px,Baskerville Old Face;
+}
+
+#boton {
+	width: 100px;
+	background: black;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px black;
+}
+
+  #articulosprincipales { 
+    flex: 1; 
+    margin-right: 20px; 
+    padding-top: 10px; 
+    background-color: #FFFFFF; 
+    border-radius: 0px; 
+    text-align:center,justify;
+  } 
+ 
+  #infoadicional h1 { 
+    font: bold 18px Arial, sans-serif; 
+    color: #333333; 
+    margin-bottom: 15px; 
+  }
+  article { 
+    position: relative; 
+    padding: 0px 40px 20px 40px; 
+    
+  } 
+  article h1 { 
+    margin-bottom: 5px; 
+    font: bold 30px Georgia, sans-serif; 
+  } 
+  article p { 
+    font: 15px Georgia, sans-serif; 
+    text-align:justify;
+  } 
+
+  #pielogo { 
+    display: flex; 
+    justify-content: center; 
+    width: 96%; 
+    padding: 2%; 
+    background-color: #FFD3F4; 
+  } 
+  #pielogo > div { 
+    display: flex; 
+    flex: 1; 
+    max-width: 960px; 
+    background-color: #FFFFFF; 
+    border-radius: 10px; 
+  } 
+  .seccionpie { 
+    flex: 1; 
+    padding: 25px; 
+  } 
+  .seccionpie h1 { 
+    font: bold 20px Arial, sans-serif; 
+  } 
+  .seccionpie p { 
+    margin-top: 5px; 
+  } 
+  .seccionpie a { 
+    font: bold 16px Arial, sans-serif; 
+    color: #000000;
+    text-decoration: none; 
+  } 
+  .imagenseccion{
+      height: 200 px;
+      width:200px;
+  }
+  .tabla{
+   border:1px solid;
+   width:600px;
+  border-collapse:collapse;
+  }
+  .tabla td{
+  text-align:center;
+  border:1px solid;
+  }
+  .tabla td:hover{
+   background-color:#FDE3FA;
+  }
+  .tabla th{
+   background-color:#FCBCE6;
+  }
+  
+  
+  

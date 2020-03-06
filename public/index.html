@@ -1,39 +1,63 @@
-<!DOCTYPE html>
-<html>
-  <head>
-     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Formulario de Recomendacion</title>
-    <link rel="stylesheet" href="estilos.css">
-  </head>
-  <body>
-    <h1>Formulario</h1>
- <center>Peliculas dependeindo su edad:</center> 
-</br>
-</br>
-<form action="javascript:recomendacion();">
-    <input type="text" id="nombre" required placeholder="Nombre">
-</br>
-    <input type="number" min="1" max="100" id="edad" required placeholder="Edad">
-</br>
-    <button type="submit">Enviar</button>
-</br>
-</form>
-<script>
-  function recomendacion() {
-    let eleccion = edad.value;
-    if (eleccion <= 5) {
-      alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver intensa-mente,Rey leon ,Frozen.`);
-    }else  if (eleccion <= 15) {
-      alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver Jumanji,Matilda,Wall-E.`);
-    } else if (eleccion <= 20) {
-      alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver ¿Que paso ayer?,Guardianes de la galaxia,Chicas pesadas.`);
-    }else if (eleccion <= 100) {
-      alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver 12 hombrs en pugna,El club de los 5,Todo poderoso`);
-    }
-    
-  }
-</script>
-<footer>Copyright &copy; 2020 Lizbeth Joselin Muñoz Vazquez.</footer>
-</body>
+<!DOTYPE html>
+<html lang="es">
+<head>
+ <title>Formulario</title>
+ <meta charset="utf-8"> 
+ <meta name="description" content="Este es un documento HTML5"> 
+ <meta name="keywords" content="HTML, CSS, JavaScript"> 
+ <link rel="stylesheet" href="Estilos.css"> 
+</head> 
+<body> 
+ <header id="cabeceralogo"> 
+  <div> 
+  <center><h1>Formulario</h1> </center>  
+ </header> 
+ <main> 
+     <section id="articulosprincipales"> 
+      
+      <section id="msform">
+        <h2>Peliculas dependeindo su edad:</h2> 
+      </br>
+    </br>
+     <tr>
+        <form action="javascript:recomendacion();">
+          <center>
+          <input type="text" id="nombre" required placeholder="Nombre">
+      </br>
+          <input type="number" min="1" max="100" id="edad" required placeholder="Edad">
+      </br>
+          <button id="boton"  type="submit">Enviar</button>
+        </tr>
+      </br>
+      </section>
+    </div>
+      </form>
+    </center>
+    <script>
+      function recomendacion() {
+        let eleccion = edad.value;
+        if (eleccion <= 5) {
+          alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver intensa-mente,Rey leon ,Frozen.`);
+        }else  if (eleccion <= 15) {
+          alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver Jumanji,Matilda,Wall-E.`);
+        } else if (eleccion <= 20) {
+          alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver ¿Que paso ayer?,Guardianes de la galaxia 2,Chicas pesadas.`);
+        }else if (eleccion <= 100) {
+          alert (`Mi nombre es ${nombre.value} tengo ${edad.value} años puedes ver 12 hombres en pugna,El club de los 5,Todo poderoso`);
+        }else{
+          alert (`Tiene que llenar todos los campos`);
+        }
+        
+      }
+    </script>
+    </section>  
+ </main> 
+ <footer id="pielogo">
+<div> 
+  <section class="seccionpie"> 
+    Copyright &copy; 2020 Lizbeth Joselin Muñoz Vazquez.
+  </section>
+ </div> 
+  </footer> 
+</body> 
 </html>
